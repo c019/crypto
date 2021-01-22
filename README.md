@@ -28,7 +28,7 @@ import (
 )
 
 func main() {
-  sha256 := crypto.Sha256{
+	sha256 := crypto.Sha256{
 		Texto: "c019.com.br",
 	}
 
