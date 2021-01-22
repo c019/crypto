@@ -29,7 +29,7 @@ import (
 
 func main() {
   sha256 := crypto.Sha256{
-		Texto: "NADA",
+		Texto: "c019.com.br",
 	}
 
 	fmt.Println(sha256.Encrypt())
